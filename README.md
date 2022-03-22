@@ -1,0 +1,2 @@
+# herblufstwm
+my herblufstwm theme
