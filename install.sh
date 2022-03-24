@@ -19,9 +19,9 @@ RESET="\x1B[0m"
 # 2 - update and install dependencies
 # 3 - clone https://github.com/okklol/herblufstwm/
 # 4 - move ~/herblufstwm to ~/,config/herblufstwm
-echo -e "hello $USER"
-echo -e "this script will install my herblufstwm dots to your computer"
-echo -e "first, an explanetion on what this script will do:"
-echo -e "1 - upstate and install dependencies \n2 - clone my herb dots github repo (https://github.com/okklol/herblufstwm/) \n3 - move the herblufstwm folder to .config"
+echo -e "hello, $USER"
+echo -e "this script will install my herblufstwm dots to your computer\n"
+echo -e "first, an explanetion on what this script will do\n:"
+echo -e "${BLUE}1${RESET} - upstate and install dependencies \n${BLUE}2${RESET} - clone my herb dots github repo (https://github.com/okklol/herblufstwm/) \n${BLUE}3${RESET} - move the herblufstwm folder to .config"
 
 echo -e "now, lets start, do you wish to proceed? ${GREEN}Y${RESET}/${RED}N${RESET}"
