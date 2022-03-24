@@ -14,7 +14,11 @@ RESET="\x1B[0m"
 # this bash script will install my herblufstwm dots
 # order of operations:
 
-
+install()
+{
+  #DO STUFF
+  echo "hello world"
+}
 # 1 - greet the user
 # 2 - update and install dependencies
 # 3 - clone https://github.com/okklol/herblufstwm/
@@ -24,4 +28,10 @@ echo -e "this script will install my herblufstwm dots to your computer\n"
 echo -e "first, an explanetion on what this script will do\n:"
 echo -e "${BLUE}1${RESET} - upstate and install dependencies \n${BLUE}2${RESET} - clone my herb dots github repo (https://github.com/okklol/herblufstwm/) \n${BLUE}3${RESET} - move the herblufstwm folder to .config"
 
-echo -e "now, lets start, do you wish to proceed? ${GREEN}Y${RESET}/${RED}N${RESET}"
+read -e "now, lets start, do you wish to proceed? ${GREEN}Y${RESET}/${RED}N${RESET}"
+read -p ">" CONTINUEVAR
+if [$CONTINUEVAR = "y" || "Y"]
+then
+  intall()
+else
+  exit 0
