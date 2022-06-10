@@ -1,5 +1,5 @@
-### herblufstwm dots
-my herblufstwm dotfiles
+### herbstluftwm dots
+my herbstluftwm dotfiles
 
 contact me on discord okk#7652 if you need anything!
 
